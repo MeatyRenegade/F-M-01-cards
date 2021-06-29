@@ -23,7 +23,26 @@ body {
 }
 
 .item {
-  font-size: 30px;
   margin-bottom: 20px;
+  padding: 10px 0 10px 0;
+  font-size: 30px;
   font-weight: 700;
+  list-style: none;
+  border-radius: 10px;
+  background-color: rgb(31, 193, 199);
+  text-align: center;
+  box-shadow: 0 0 5px rgb(124, 123, 123);
+  cursor: pointer;
+}
+
+.item:hover {
+  box-shadow: 0 0 15px #fff;
+  background: rgb(15, 168, 173);
+}
+
+.link {
+  display: block;
+  height: auto;
+  width: 300px;
+  text-decoration: none;
 }
